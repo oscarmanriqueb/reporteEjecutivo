@@ -4,8 +4,8 @@ function sendUpdate() {
   var numCts = sheet.getRange(36,3).getValue();
   var numRec = sheet.getRange(36,4).getValue();
   var valor = "C: "+numCts+" R: "+numRec;
-  var email = "oscar.manrique@gmail.com";
-//  var email = "oscar.manrique@artusleadmanager.page";
+//  var email = "oscar.manrique@gmail.com,erfonseca@mac.com";
+  var email = "oscar.manrique@artusleadmanager.page,erfonseca@mac.com";
   
   sendEmailUpdate(email,pdf,valor) // 5) call the email function with the just generated attachment
 }
